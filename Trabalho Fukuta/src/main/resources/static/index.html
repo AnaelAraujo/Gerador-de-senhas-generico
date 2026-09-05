@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gerador de Senhas</title>
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <main>
+        <div id="generator-screen">
+
+            <h1>Gerador de Senhas</h1>
+
+            <section class="card">
+                <h2>Gerar nova senha</h2>
+
+                <button id="normal-button">
+                    Senha Normal
+                </button>
+
+                <button id="priority-button">
+                    Senha Prioritária
+                </button>
+
+                <button id="elderly-button">
+                    Senha Idoso
+                </button>
+            </section>
+
+
+            <section class="card">
+
+                <h2>Senhas</h2>
+
+                <p>
+                    Total de senhas:
+                    <strong id="total">0</strong>
+                </p>
+
+                <p>
+                    Última senha:
+                    <strong id="last-password">---</strong>
+                </p>
+
+                <p id="status"></p>
+
+                <button id="show-history">
+                    Ver todas as senhas
+                </button>
+
+            </section>
+
+        </div>
+
+        <div id="history-screen" class="hidden">
+
+            <h1>Histórico de Senhas</h1>
+
+            <section class="card">
+
+                <h2>Lista de senhas</h2>
+
+                <div id="password-list" class="password-list">
+                    <div class="empty">
+                        Ainda não há senhas.
+                    </div>
+                </div>
+
+                <div class="history-buttons">
+
+                    <button id="clear-passwords">
+                        Limpar senhas
+                    </button>
+
+                    <button id="back-button">
+                        Voltar
+                    </button>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
