@@ -1,6 +1,6 @@
 # Gerador-de-senhas-generico
 
-nome: Anael Monte Paz de Araújo
+Nomes: Anael Monte Paz de Araújo, Vinicius Meloni
 
 Apenas um gerador de senhas genérico
 
